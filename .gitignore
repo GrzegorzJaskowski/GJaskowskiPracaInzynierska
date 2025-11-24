@@ -1,0 +1,15 @@
+.cursor/
+rules/
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+faiss_db/
+*.pdf
+exam_results.json

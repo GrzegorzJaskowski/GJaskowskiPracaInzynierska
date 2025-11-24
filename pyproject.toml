@@ -1,0 +1,34 @@
+[project]
+name = "praca"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GrzegorzJaskowski",email = "grzegorz.jaskowski81@gmail.com"}
+]
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pymupdf4llm>=0.0.6",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "faiss-cpu>=1.7.4",
+    "sentence-transformers>=2.2.0",
+    "opencv-python>=4.8.0",
+    "Pillow>=10.0.0",
+    "pytesseract>=0.3.10",
+    "langgraph (>=0.6.7,<0.7.0)",
+    "langsmith (>=0.4.28,<0.5.0)",
+    "python-dotenv>=1.0.0",
+    "langchain[openai] (>=0.3.27,<0.4.0)",
+    "ipython>=8.0.0",
+    "pyppeteer>=1.0.0",
+    "fastapi (>=0.117.1,<0.118.0)",
+    "uvicorn (>=0.37.0,<0.38.0)",
+]
+
+[tool.poetry]
+packages = [{include = "praca", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

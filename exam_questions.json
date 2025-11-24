@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the Domain Separation (DS) Method in a DBMS, and how does it handle different types of disk pages?",
+    "knowledge_base_answer": "The Domain Separation (DS) Method in a DBMS divides the cache into separate domains (sets of buffers), each handling one type of disk page (such as index pages, data file pages, log file pages). Page replacements occur within each domain independently."
+  },
+  {
+    "question": "In Object Query Language (OQL), what is an extent name, and how is it used in a typical OQL select query?",
+    "knowledge_base_answer": "An extent name in OQL is the name of a persistent object that refers to a collection (usually a set) of objects of a class. In a query, the extent name serves as an entry point to the database; for example, \"DEPARTMENTS\" as the extent name refers to the collection of all department objects."
+  },
+  {
+    "question": "What are the three broad categories of spatial operators in spatial databases, and what does each category capture or measure?",
+    "knowledge_base_answer": "The three broad categories of spatial operators are:\n- Topological operators: Capture invariant properties under topological transformations (such as rotation, scaling), e.g., inside, open.\n- Projective operators: Express predicates about the concavity/convexity of objects and other relations, e.g., convex hull.\n- Metric operators: Measure specific geometric properties like area, length, distance, direction, and compactness."
+  },
+  {
+    "question": "In Datalog, what is a Horn clause and how does clausal form restrict the way formulas are written?",
+    "knowledge_base_answer": "A Horn clause is a clause that contains at most one positive literal (atomic formula); clausal form requires formulas to be written as a conjunction of clauses, each clause being a disjunction of literals with all variables universally quantified."
+  },
+  {
+    "question": "What is force-writing in the context of a DBMS buffer manager, and when is it typically used?",
+    "knowledge_base_answer": "Force-writing is when the DBMS writes certain blocks to disk even if the space occupied by those blocks is not needed. This typically occurs when log records have to be written to disk ahead of the modified pages in a transaction for recovery purposes."
+  }
+]
