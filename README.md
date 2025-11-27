@@ -1,5 +1,9 @@
 # System Automatyzujący Egzaminację
 
+## Działanie systemu
+
+Krótkie nagranie z jednego egzaminu jest dostępne w repozytorium w pliku egzamin.mp4.
+
 ## Wymagania
 
 - Python 3.12 lub nowszy
@@ -86,3 +90,4 @@ poetry run python -m praca
     - URL: `http://localhost:8000/v1`
     - Name: `Egzaminator`
     - Key: `dummy-key` - chat łączy się z lokalnym serwerem, a klucz dostępu jest obsługiwany z poziomu systemu
+
